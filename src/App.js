@@ -14,6 +14,7 @@ const Display = ({ content }) => (
   <pre>{content}</pre>
 );
 
+//Top level component
 const App = () => { 
   const [count, setCount] = useState(0);
   const incrementCounter = (incrementValue) => 
